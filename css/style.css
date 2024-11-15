@@ -264,6 +264,9 @@ svg.arrow_down {
   top: 1px;
 }
 
+.arrow_round a:hover {
+  background-color: #363636;
+}
 .login {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -361,4 +364,376 @@ svg.arrow_down {
 @media (max-width: 767.98px) {
 }
 /* top stop
+------------------------------------ */
+
+/* header start
+------------------------------------ */
+
+@media (min-width: 768px) {
+  .header {
+    margin: 50px 0;
+  }
+  .header .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .col_1 {
+    background-color: #036;
+    width: 889px;
+    height: 519px;
+    border-radius: 20px;
+  }
+  .header h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #fbfbfb;
+    padding: 100px 0 16px 80px;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .header p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fbfbfb;
+    padding: 0 0 40px 80px;
+    line-height: 1;
+  }
+
+  .header .ex_courses {
+    display: block;
+    background-color: #fbfbfb;
+    width: 185px;
+    height: 58px;
+    border-radius: 14px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #036;
+    margin-left: 80px;
+  }
+  .header .ex_courses:hover {
+    background-color: #363636;
+    color: #fbfbfb;
+  }
+}
+/* header stop
+------------------------------------ */
+/* advantages start
+------------------------------------ */
+@media (min-width: 768px) {
+  .advantages .container {
+    background-color: #e0e7ef;
+  }
+  .advantages .content {
+    padding: 70px 0;
+  }
+  .advantages .col_1 {
+    background-color: #fbfbfb;
+    width: 1340px;
+    height: 123px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+  }
+  .advantages .col_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: #036;
+    text-transform: uppercase;
+    line-height: 1.5;
+  }
+  .advantages .elm {
+    background-color: #fbfbfb;
+    width: 431px;
+    height: 274px;
+    border-radius: 14px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .advantages .elm img {
+    padding-bottom: 12px;
+  }
+  .advantages .elm .text_1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #036;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    line-height: 1.5;
+  }
+  .advantages .elm .text_2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #343434;
+    line-height: 1.5;
+  }
+}
+/* advantages stop
+------------------------------------ */
+
+/* about us start
+------------------------------------ */
+@media (min-width: 768px) {
+  .about_us .content {
+    padding: 50px 0;
+  }
+  .row_1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .arrow_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrow_round span {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #363636;
+    line-height: 1.5;
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+  .arrow_link {
+    background-color: #036;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about_us .row_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .about_us .row_2 .elm_1 {
+    background-color: #036;
+    width: 660px;
+    height: 333px;
+    border-radius: 14px;
+    padding: 37px 32px 22px 34px;
+  }
+  .about_us .row_2 .elm_1 h3 {
+    color: #fbfbfb;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding-bottom: 21px;
+  }
+  .about_us .row_2 .elm_1 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fbfbfb;
+  }
+  .about_us .elm_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+  }
+  .about_us .itm {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fbfbfb;
+    background-color: #036;
+    width: 317px;
+    height: 211px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .about_us .itm p:first-child {
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: #fbfbfb;
+    text-align: center;
+  }
+}
+/* about us stop
+------------------------------------ */
+
+/* Our courses start
+------------------------------------ */
+@media (min-width: 768px) {
+  .our_courses .content {
+    padding-top: 50px;
+  }
+  .our_courses .box_1 {
+    width: 1340px;
+    height: 884px;
+    border-radius: 20px;
+    border: #036 solid 2px;
+    padding: 40px;
+    margin: 20px 0;
+  }
+  .our_courses .row_box_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .level {
+    display: flex;
+    align-items: center;
+  }
+  .level a {
+    text-decoration: none;
+  }
+
+  .level span {
+    color: #036;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding-left: 14px;
+  }
+  .our_courses .row_box_2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .our_courses .row_box_2 .items {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #343434;
+    background-color: #eff3f7;
+    width: 130px;
+    height: 47px;
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0 16px;
+    margin-right: 12px;
+  }
+  .our_courses .row_box_2 .items_9 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #343434;
+    background-color: #eff3f7;
+    width: 149px;
+    height: 47px;
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0 16px;
+    margin-right: 12px;
+  }
+
+  .our_courses .row_box_3 h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #036;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+  }
+  .our_courses .row_box_3 h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #343434;
+    padding-bottom: 8px;
+  }
+
+  .our_courses .row_box_3 .text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #343434;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 16px;
+  }
+
+  .row_box_3 .text img {
+    padding: 0 10px 4px 0;
+  }
+
+  .our_courses .row_box_4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #036;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+  }
+  .separstor-vert {
+    height: 45px;
+    border: #036 solid 1px;
+    margin: 0 16px;
+  }
+
+  .our_courses .row_box_5 a {
+    width: 216px;
+    height: 58px;
+    margin: 0;
+  }
+}
+
+/* Our courses stop
 ------------------------------------ */
