@@ -234,7 +234,9 @@ img {
   margin: 0 auto;
   max-width: 1340px;
 }
-
+body {
+  background-color: #fbfbfb;
+}
 /* top start
 ------------------------------------ */
 
@@ -393,7 +395,7 @@ svg.arrow_down {
     color: #fbfbfb;
     padding: 100px 0 16px 80px;
     text-transform: uppercase;
-    line-height: 1;
+    line-height: 120%;
   }
   .header p {
     font-family: "Roboto", sans-serif;
@@ -457,7 +459,7 @@ svg.arrow_down {
     font-weight: 500;
     color: #036;
     text-transform: uppercase;
-    line-height: 1.5;
+    line-height: 64px;
   }
   .advantages .elm {
     background-color: #fbfbfb;
@@ -736,4 +738,193 @@ svg.arrow_down {
 }
 
 /* Our courses stop
+------------------------------------ */
+
+/* input start
+------------------------------------ */
+
+@media (min-width: 768px) {
+  .input_block .container {
+    background-color: #036;
+    margin-top: 55px;
+  }
+  .input_block .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+  }
+  .input_block h2 {
+    color: #fbfbfb;
+  }
+  .input_block p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fbfbfb;
+    padding-top: 4px;
+  }
+  .input_block .col {
+    width: 50%;
+  }
+  .input_block .col:first-child {
+    padding-right: 12px;
+  }
+  .input_block .col:last-child {
+    padding-left: 12px;
+  }
+  .input_block .col:last-child form {
+    display: flex;
+    flex-direction: column;
+  }
+  .input_block input {
+    height: 64px;
+    border-radius: 4px;
+    background-color: #fbfbfb;
+    border: solid 1px #ececec;
+    padding: 0 14px;
+    color: #343434;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+  .input_block input[type="submit"] {
+    width: 213px;
+    height: 58px;
+    border-radius: 14px;
+    background-color: #fbfbfb;
+    border: solid 1px #ececec;
+    padding: 0 30px;
+    color: #036;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 16px;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  .input_block input[type="submit"]:hover {
+    color: #fbfbfb;
+    background-color: #343434;
+    border: none;
+  }
+  /* placeholder */
+
+  .input_block input[placeholder] {
+    text-overflow: ellipsis;
+  }
+  .input_block input::-moz-placeholder {
+    text-overflow: ellipsis;
+  }
+  .input_block input:-moz-placeholder {
+    text-overflow: ellipsis;
+  }
+  .input_block input:-ms-input-placeholder {
+    text-overflow: ellipsis;
+  }
+
+  .input_block input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    color: #343434;
+  }
+  .input_block input::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    color: #343434;
+  }
+  .input_block input:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    color: #343434;
+  }
+  .input_block input:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    color: #343434;
+  }
+
+  .input_block input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .input_block input:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .input_block input:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .input_block input:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+}
+/* input stop
+------------------------------------ */
+
+/* slider start
+------------------------------------ */
+
+@media (min-width: 768px) {
+  .slider .content {
+    padding: 50px 0 20px;
+    overflow: hidden;
+  }
+  .slider .slide_testimonials {
+    /* width: 658px; */
+    /* height: 265px; */
+    display: flex;
+    border: #036 solid 1px;
+    border-radius: 12px;
+    padding: 20px;
+    /* margin: 0 12px; */
+  }
+  .slide_testimonials h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #343434;
+    padding-bottom: 2px;
+  }
+  .slide_testimonials .role {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6b6b6b;
+    padding-bottom: 2px;
+  }
+  .slide_testimonials p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #343434;
+    padding-top: 16px;
+  }
+  .testimonials_photo {
+    width: 200px;
+    height: 225px;
+  }
+  .testimonials_content {
+    width: calc(100% - 200px);
+    padding: 0 78px 0 20px;
+  }
+  .slider_testimonials .slick-slide {
+    margin: 0 12px;
+    overflow: hidden;
+  }
+  .slider_testimonials .slick-list {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+/* slider start
 ------------------------------------ */

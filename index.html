@@ -15,7 +15,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="favicon.png" type="image/x-icon" />
-
+    <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
@@ -539,6 +539,148 @@
     </div>
     <!-- our courses stop -->
 
+    <!-- input start -->
+    <div class="input_block">
+      <div class="container">
+        <div class="content">
+          <div class="col">
+            <h2>
+              Companies, universities,
+              <br />
+              directors and presidents
+            </h2>
+            <p>
+              If you'd like to learn more information about our work with large
+              <br />
+              organizations, let's schedule a call.
+            </p>
+          </div>
+          <div class="col">
+            <form action="" method="" name="">
+              <input type="text" required placeholder="Name" />
+              <input type="email" required placeholder="Email" />
+              <input type="submit" value="Schedule a call" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- input stop -->
+
+    <!-- slider start -->
+    <div class="slider">
+      <div class="container">
+        <div class="content">
+          <div><h2>Testimonials</h2></div>
+          <div class="slider_testimonials">
+            <div class="slide_testimonials">
+              <div class="testimonials_photo">
+                <img src="img/slide_img_1.png" alt="" />
+              </div>
+              <div class="testimonials_content">
+                <h4>Name</h4>
+                <span class="role">Role Here</span>
+                <div class="rating">
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Sed commodo lorem sit
+                  nec ut. Habitant mattis in vitae sagittis maecenas sed. Sed
+                  sit posuere sed sit rhoncus. Nunc leo eu volutpat laoreet est
+                  arcu odio vitae egestas. Porttitor urna.
+                </p>
+              </div>
+            </div>
+            <div class="slide_testimonials">
+              <div class="testimonials_photo">
+                <img src="img/slide_img_1.png" alt="" />
+              </div>
+              <div class="testimonials_content">
+                <h4>Name</h4>
+                <span class="role">Role Here</span>
+                <div class="rating">
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Sed commodo lorem sit
+                  nec ut. Habitant mattis in vitae sagittis maecenas sed. Sed
+                  sit posuere sed sit rhoncus. Nunc leo eu volutpat laoreet est
+                  arcu odio vitae egestas. Porttitor urna.
+                </p>
+              </div>
+            </div>
+            <div class="slide_testimonials">
+              <div class="testimonials_photo">
+                <img src="img/slide_img_1.png" alt="" />
+              </div>
+              <div class="testimonials_content">
+                <h4>Name</h4>
+                <span class="role">Role Here</span>
+                <div class="rating">
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Sed commodo lorem sit
+                  nec ut. Habitant mattis in vitae sagittis maecenas sed. Sed
+                  sit posuere sed sit rhoncus. Nunc leo eu volutpat laoreet est
+                  arcu odio vitae egestas. Porttitor urna.
+                </p>
+              </div>
+            </div>
+            <div class="slide_testimonials">
+              <div class="testimonials_photo">
+                <img src="img/slide_img_1.png" alt="" />
+              </div>
+              <div class="testimonials_content">
+                <h4>Name</h4>
+                <span class="role">Role Here</span>
+                <div class="rating">
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Sed commodo lorem sit
+                  nec ut. Habitant mattis in vitae sagittis maecenas sed. Sed
+                  sit posuere sed sit rhoncus. Nunc leo eu volutpat laoreet est
+                  arcu odio vitae egestas. Porttitor urna.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- slider stop -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      $(".slider_testimonials").slick({
+        infinite: true,
+        arrows: true,
+        dots: true,
+        autoplay: false,
+        // autoplaySpeed: 3000,
+        // speed: 600,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        // variableWidth: true,
+      });
+    </script>
   </body>
 </html>
